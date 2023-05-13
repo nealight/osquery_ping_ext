@@ -49,7 +49,7 @@ class ExampleTable : public TablePlugin {
     FILE * stream;
     const int max_buffer = 256;
     char buffer[max_buffer];
-    ping_query.append(" 2>&1"); // Do we want STDERR?
+    ping_query.append(" 2>&1"); 
 
     stream = popen(ping_query.c_str(), "r");
     if (stream) {
