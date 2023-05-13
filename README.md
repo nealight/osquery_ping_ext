@@ -1,0 +1,1 @@
+# osquery_ping_ext
